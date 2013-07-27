@@ -175,7 +175,7 @@ Jossy необходим только на этапе разработки, по
     var jossy = require('jossy');
     jossy.compile('String.js', ['escapeHTML'], {ie: true}, function(err, result) {
         if (err) {
-            trhow err;
+            throw err;
         }
         console.log(result);
     });
